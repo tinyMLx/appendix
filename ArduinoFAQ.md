@@ -1,0 +1,1 @@
+## Common Arduino Errors FAQ
