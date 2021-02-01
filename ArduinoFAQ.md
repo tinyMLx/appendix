@@ -64,13 +64,13 @@ Use the menu to navigate to: ```Tools → Board: → Boards Manager```. Then typ
 
 The Arduino IDE requires every sketch (.ino file) to be stored in a folder with the same name as the file, e.g. “blink.ino” needs to be stored in a folder called “blink”. When you try to open a sketch that is not already in a folder with the same name, the IDE will attempt to create the appropriate folder and move the sketch before opening, indicated by the following pop-up:
 
-![A popup stating: The file "FAQ.ino" needs to be inside a sketch folder named "FAQ". Create this folder, move the file, and continue?](fileFolder.png)
+![A popup stating: The file "FAQ.ino" needs to be inside a sketch folder named "FAQ". Create this folder, move the file, and continue?](img/fileFolder.png)
 
 If a folder with the name of your sketch already exists in the current directory, you will get the error messages below (one after the other):
 
-![A popup stating: A folder named "FAQ" already exists. Can't open sketch.](folder.png)
+![A popup stating: A folder named "FAQ" already exists. Can't open sketch.](img/folder.png)
 
-![A popup stating: Failed to open sketch "PATH_TO_SKETCH".](filePath.png)
+![A popup stating: Failed to open sketch "PATH_TO_SKETCH".](img/filePath.png)
 
 To fix this, simply move or delete the conflicting directory (in this case, a directory called “FAQ”), then either try opening the sketch again, or manually create a folder with the sketch name and move the sketch into that folder then open the sketch.
 
