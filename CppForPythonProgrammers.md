@@ -116,12 +116,12 @@ return_type function_name(type arg1, type arg2, ...) {
 ```
 // function definition:
 int doSomething(int a, bool print_enable) {
-		if (print_enable) {  // no semicolon here!
-printf(“The value is %d.\n”, x);
-} else {
-	return a*a;  // of type int
+    if (print_enable) {  // no semicolon here!
+        printf(“The value is %d.\n”, x);
+    } else {
+	    return a*a;  // of type int
+    }
 }
-	}
 
 int b = doSomething(2, true);  // no types needed when calling function
 ```
