@@ -16,11 +16,11 @@ You might be wondering how any battery might connect to the boards in front of y
 1. Screw down a wire leading from the negative battery terminal (black) to GND (Most < 3mm flat-head screwdrivers will suffice here).
 2. Repeat this process for the positive battery terminal (red) to VIN. And that's it you're all set to power your Arduino from a battery!
 
-![An image of screwing down the black negative terminal to attach a wire.](img/batteryScrew.png)
-
-![An image of the attached battery powering the device.](img/batteryDone.png)
-
 #### Important Notes
 1. While there is clever circuitry on board to handle such an exception, it is generally good practice to avoid having competing power sources, so we’d recommend that you unplug the Nano 33 BLE Sense from USB power before connecting a battery
 
 2. With about 550 mAh capacity, a 9V battery can source 15 mA for about 37 hours before you will need to get a new one.
+
+![An image of screwing down the black negative terminal to attach a wire.](img/batteryScrew.png)
+
+![An image of the attached battery powering the device.](img/batteryDone.png)
