@@ -119,7 +119,7 @@ int doSomething(int a, bool print_enable) {
     if (print_enable) {  // no semicolon here!
         printf(“The value is %d.\n”, x);
     } else {
-	    return a*a;  // of type int
+        return a*a;  // of type int
     }
 }
 
