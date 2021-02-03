@@ -39,16 +39,6 @@
 
 2. If those are all satisfied then be sure that there aren’t other applications competing for access to your MCU over the same serial port — namely, that the Serial Monitor and Serial Plotter are closed for upload (We’ll explore both of those in more detail in the course).
 
-### What Arduino software versions do I need to install?
-
-We have tested the TinyML kit on the following:
-+ Arduino IDE version 1.8.13
-+ Arduino mbed-enabled board files version 1.3.1
-+ TensorFlow Lite for Microcontrollers Arudino library version 2.4.0-ALPHA
-+ Arduino_LSM9DS1 Arudino library version 1.1.0
-+ ArduinoBLE version Arudino library 1.1.3
-+ Havrard_TinyMLx Arudino library version 0.1.0
-
 ### How do I know what version of \<Arduino Library\> is installed?
 
 Use the menu to navigate to: ```Tools → Manage Libraries```. Then type the name of the library in the top search bar and you will see the word ```INSTALLED``` in teal next to the version number of the library installed. For example you might find the below:
@@ -83,3 +73,17 @@ We haven't tested all flavors of Linux but the following generally solves any is
 2. ```chmod``` the serial port as follows: ```sudo chmod a+rw <SERIAL_PORT>```.
 
 3. If you still cannot access the serial port, you may have the ```modemmanager``` package installed and set to auto-capture all serial devices. This package is used for cellular connections from your laptop. If you are not using your laptop for cellular you can remove the package with ```sudo apt-get purge modemmanager```.
+
+### What Arduino software versions do I need to install?
+
+We have tested the TinyML kit on the following:
++ Arduino IDE version 1.8.13
++ Arduino mbed-enabled board files version 1.3.1
++ TensorFlow Lite for Microcontrollers Arudino library version 2.4.0-ALPHA
++ Arduino_LSM9DS1 Arudino library version 1.1.0
++ ArduinoBLE version Arudino library 1.1.3
++ Havrard_TinyMLx Arudino library version 0.1.0
+
+### I'm getting the error ```fatal error: XXXX.h: No such file or directory```
+
+This usually means that you do not have a needed library installed. Please go back to the software setup (and/or look at the list one question above) and make sure you have installed all of the libraries needed by the course!
