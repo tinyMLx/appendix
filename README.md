@@ -30,11 +30,13 @@ A guide to deploying code to a microcontroller. It outlines the difference betwe
 
 A guide on how to power your TinyML Arduino development board, including sections on powering via USB and via Battery.
 
-## [SerialProtocols.md](https://github.com/tinyMLx/appendix/blob/main/SerialProtocols.md)
+### [SerialProtocols.md](https://github.com/tinyMLx/appendix/blob/main/SerialProtocols.md)
 
 An introduction to serial communication protocols. It covers UART, I2C, SPI, and their application in embedded systems.
 
-== License ==
+
+
+## == License ==
 
 Copyright (c) 2021 TinyMLx. All rights reserved.
 
