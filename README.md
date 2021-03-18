@@ -26,6 +26,10 @@ This repository holds the Appendix Documents for the [EdX TinyML Specialization]
 
   * A guide to deploying code to a microcontroller. It outlines the difference between in-system programming and bootloaders.
 
+* [OpenSpeechRecordingLocal.md](https://github.com/tinyMLx/appendix/blob/main/OpenSpeechRecordingLocal.md)
+
+  * A guide for running the open-speech-recording application locally as compared to naviagting to [https://tinyMLx.org/open_speech_recording](https://tinyMLx.org/open_speech_recording)
+
 * [PoweringArduino.md](https://github.com/tinyMLx/appendix/blob/main/PoweringArduino.md)
 
   * A guide on how to power your TinyML Arduino development board, including sections on powering via USB and via Battery.
