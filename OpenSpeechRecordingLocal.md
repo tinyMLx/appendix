@@ -19,6 +19,6 @@ We have [forked a version](https://github.com/tinyMLx/open-speech-recording/) of
 
 3. Then open the link provided in the terminal in a web browser to run the application. Make sure to **run the application in a private or incognito window** which avoids any cacheing issues. Also we've found that the app works best when **using Chrome** so if you are having issues with another browser please try it in Chrome.
 
-4. The application can then be run as specified in the [edX course instructions](https://github.com/tinyMLx/courseware/raw/master/edX/readings/4-6-6.pdf). Once you are done recording, click to download the audio files. You will find that instead of downloading the files indivudally or via a zip, you now have a large collection of ```.ogg``` files in your open-speech-recording directory.
+4. The application can then be run as specified in the [edX course instructions](https://github.com/tinyMLx/courseware/raw/master/edX/readings/4-6-6.pdf). Once you are done recording, click to download the audio files. You will find that instead of downloading the files individually or via a zip, you now have a large collection of ```.ogg``` files in your open-speech-recording directory.
 
-5. You can now safely kill the flask app from the command line by running ```cntrl+c``` (or ```cmd+c```) and can now proceed to formatting your audio files and then training your model in Colab.
+5. You can now safely close the flask app from the command line by running ```cntrl+c``` (or ```cmd+c```) and can now proceed to formatting your audio files and then training your model in Colab.
