@@ -38,6 +38,10 @@ This repository holds the Appendix Documents for the [EdX TinyML Specialization]
 
   * An introduction to serial communication protocols. It covers UART, I2C, SPI, and their application in embedded systems.
 
+* [Teachable Machine](https://github.com/googlecreativelab/teachablemachine-community/blob/master/snippets/markdown/tiny_image/GettingStarted.md)
+
+  * We are excited to announce that Google's Teachable Machine now supports deployment to the Arduino Nano 33 BLE! If you'd like to learn more about it follow this link to their getting started guide!
+
 
 
 ## License
