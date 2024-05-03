@@ -22,7 +22,7 @@ If you can’t wait to get your feet wet exploring BLE, we suggest you deploy a 
 2. Make sure to set the Port and Board from the Tools menu.
 3. Click upload to compile and flash your code to your Arduino. If you are having problems check out our [Arduino FAQ](https://github.com/tinyMLx/appendix/blob/main/ArduinoFAQ.md) appendix.
 4. Once the code is uploaded open the serial monitor to start the BLE on your Arduino.
-5. From there you can manipulate the state of the built-in LED using the LightBlue app from PunchThrough. LightBlue is available on both [iOS](https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer&hl=en_US&gl=US) and [Android](https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer&hl=en_US&gl=US). 
+5. From there you can manipulate the state of the built-in LED using the LightBlue app from PunchThrough. LightBlue is available on both [iOS](https://apps.apple.com/app/lightblue/id557428110) and [Android](https://play.google.com/store/apps/details?id=com.punchthrough.lightblueexplorer&hl=en_US&gl=US). 
 6. Open up the app and give it access to Bluetooth then in the list of BLE devices look for either ```LED``` or ```Arduino``` and click on it. You should then see the serial monitor say ```Connected to central: XX:XX:XX:XX:XX:XX```.
 7. Then click on the option that probably has a very long UUID and the option for ```Properties:Read Write```. Then click on ```Write new value```. You can now send a ```1``` to turn on the LED or a ```0``` to turn it off!
 
